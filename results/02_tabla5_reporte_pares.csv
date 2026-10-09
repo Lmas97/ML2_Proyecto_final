@@ -1,0 +1,8 @@
+,artículo,simulación
+precisión clase 0,0.83,0.899
+recall clase 0,0.98,0.984
+F1 clase 0,0.9,0.939
+precisión clase 1,0.97,0.981
+recall clase 1,0.77,0.881
+F1 clase 1,0.86,0.928
+accuracy,0.88,0.934

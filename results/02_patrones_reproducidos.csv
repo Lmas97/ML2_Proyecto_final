@@ -1,0 +1,10 @@
+patrón del artículo,¿se reproduce?
+"Los 3 modelos de ML superan a la regla de Milojević (F1 macro, todos)",True
+"Random Forest es el mejor algoritmo (F1 macro, todos)",False
+"{0:5,1:1} es la mejor proporción para los 3 algoritmos (todos)",True
+La proporción pesa más que la función objetivo,True
+Más clase 1 en entrenamiento => más recall y menos precisión BCubed (RF),True
+Los bloques grandes son más difíciles que los aleatorios (RF),True
+En bloques grandes la regla tiene precisión alta y recall bajo,False
+En bloques grandes el RF predice menos clusters que perfiles reales (fusiona homónimos),True
+Pares: precisión clase 1 > clase 0 y recall clase 0 > clase 1 (Tabla 5),True

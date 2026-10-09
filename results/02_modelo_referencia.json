@@ -1,0 +1,12 @@
+{
+  "algorithm": "Random Forest",
+  "ratio": "{0:5,1:1}",
+  "scoring": "accuracy",
+  "params": {
+    "n_estimators": 30,
+    "min_samples_leaf": 10,
+    "max_features": "sqrt",
+    "max_depth": null,
+    "criterion": "gini"
+  }
+}

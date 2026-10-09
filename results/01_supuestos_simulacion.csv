@@ -1,0 +1,22 @@
+característica,fuente,tipo,comentario
+"Tamaño, perfiles y nombre de los 39 bloques de prueba",Tablas 7 y 9,Artículo,Se usan los valores exactos por bloque
+"Bloques de entrenamiento: 98, total 2.487, mediana 5",Tabla 3,Artículo,Lognormal ajustada a esa mediana y total; tope de 350
+"% de pares de clase 1 (64,9 / 77,4 / 46,5)",Tabla 3,Artículo,Se calibra el exponente Zipf de productividad
+"Cobertura de título, resumen, afiliación y keywords",Tabla 1,Artículo,Se borran campos con esas probabilidades
+Embeddings de 25 dimensiones,p. 3901,Artículo,LSA (TF-IDF + SVD) de 25 dim en lugar de Doc2Vec
+Bloques grandes escalados a la mitad,—,Escalado,"5,4 M de pares no caben en un portátil; se conserva la razón autorías/perfil"
+binzel.r y russell.c dominados por un autor (99 % y 90 % de pares clase 1),Tabla 7 (RF ≈ perfecto),Supuesto,Implica que el resto de bloques grandes es muy homónimo
+60% de las autorías con nombre abreviado,'la mayoría' (p. 3898),Supuesto,El artículo no da la cifra
+45% de autores occidentales con segundo nombre,—,Supuesto,Determina cuándo la regla de Milojević separa
+75% de nombres asiáticos de dos sílabas (Jian-Cheng),—,Supuesto,"Se escriben con guion, concatenados o con iniciales"
+85% conserva la 2.ª inicial al abreviar,—,Supuesto,
+3% errores de transcripción y 5% apodos,—,Supuesto,Variabilidad ortográfica mencionada en la introducción
+35% de autores cambia de institución una vez,—,Supuesto,Movilidad académica
+"10% institución visitante, 15% doble afiliación",—,Supuesto,
+10% de fallos al extraer ciudad/país,—,Supuesto,Ruido del NER (CERMINE + GeoNames)
+3% de autorías en colaboraciones de 100–300 autores,p. 3897 (>1.600 docs con >100 autores),Supuesto,Genera coincidencias de coautores entre homónimos
+35% de homónimos comparten subárea,—,Supuesto,Casos difíciles por contenido parecido
+65% de autores asiáticos en su país de origen,—,Supuesto,Homónimos en la misma institución
+15 % de bloques de entrenamiento de origen asiático,—,Supuesto,
+"Tamaño de bloque de referencia para el percentil: lognormal media 21, d.e. 50",p. 3899,Artículo,
+Solo autorías etiquetadas (no se simulan las 2.191 sin etiqueta),Tabla 3,Supuesto,Las no etiquetadas no se usan para entrenar ni evaluar

@@ -1,0 +1,7 @@
+# caché de pares (~120 MB, se regenera en ~30 s con el notebook 01)
+data/processed/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/

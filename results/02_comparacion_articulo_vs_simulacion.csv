@@ -1,0 +1,13 @@
+subset,modelo,config_articulo,config_sim,micro_b3f_art,micro_b3f_sim,macro_b3p_art,macro_b3p_sim,macro_b3r_art,macro_b3r_sim,macro_b3f_art,macro_b3f_sim,true_clusters_art,true_clusters_sim,pred_clusters_art,pred_clusters_sim,dif_macro_b3f
+todos,Reglas (Milojević),-,-,0.89,0.87,0.963,0.706,0.638,0.893,0.768,0.789,14.41,8.333,3.615,2.821,0.021
+todos,Decision Tree,"accuracy, {0:5,1:1}","accuracy, {0:5,1:1}",0.909,0.873,0.749,0.829,0.924,0.79,0.827,0.809,14.41,8.333,10.821,14.462,-0.018
+todos,Random Forest,"accuracy, {0:5,1:1}","average precision, {0:5,1:1}",0.947,0.949,0.811,0.822,0.946,0.961,0.874,0.886,14.41,8.333,10.974,4.872,0.012
+todos,Hist-GBDT,"average precision, {0:5,1:1}","accuracy, {0:5,1:1}",0.945,0.953,0.787,0.839,0.96,0.961,0.865,0.896,14.41,8.333,9.333,5.359,0.031
+grandes,Reglas (Milojević),-,-,0.646,0.694,0.968,0.645,0.583,0.883,0.727,0.745,79.167,39.667,13.5,9.833,0.018
+grandes,Decision Tree,"accuracy, {0:5,1:1}","accuracy, {0:5,1:1}",0.766,0.753,0.705,0.775,0.922,0.767,0.799,0.771,79.167,39.667,52.0,64.5,-0.028
+grandes,Random Forest,"average precision, {0:5,1:1}","average precision, {0:5,1:1}",0.832,0.826,0.778,0.771,0.944,0.949,0.853,0.851,79.167,39.667,54.5,19.0,-0.002
+grandes,Hist-GBDT,"average precision, {0:5,1:1}","accuracy, {0:5,1:1}",0.817,0.848,0.751,0.799,0.96,0.948,0.843,0.867,79.167,39.667,44.5,23.167,0.024
+aleatorios,Reglas (Milojević),-,-,0.934,0.902,0.939,0.865,0.927,0.92,0.933,0.892,2.636,2.636,1.818,1.545,-0.041
+aleatorios,Decision Tree,"accuracy, {0:1,1:1}","accuracy, {0:2,1:1}",0.971,0.941,0.958,0.922,0.986,0.975,0.972,0.948,2.636,2.636,2.364,1.758,-0.024
+aleatorios,Random Forest,"average precision, {0:2,1:1}","average precision, {0:5,1:1}",0.975,0.971,0.98,0.956,0.978,0.989,0.979,0.972,2.636,2.636,2.727,2.303,-0.007
+aleatorios,Hist-GBDT,"accuracy, {0:1,1:1}","average precision, {0:5,1:1}",0.965,0.973,0.955,0.947,0.984,0.993,0.969,0.97,2.636,2.636,2.455,2.182,0.001

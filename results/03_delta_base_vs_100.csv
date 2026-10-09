@@ -1,0 +1,7 @@
+metodo,subset,Δ precisión,Δ recall,Δ F1
+Random Forest,aleatorios,-0.001,-0.002,-0.002
+Random Forest,grandes,0.03,0.011,0.023
+Random Forest,todos,0.021,0.008,0.016
+Reglas (Milojević),aleatorios,0.003,0.01,0.006
+Reglas (Milojević),grandes,0.016,0.039,0.024
+Reglas (Milojević),todos,0.012,0.03,0.02

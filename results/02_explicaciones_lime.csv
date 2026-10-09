@@ -1,0 +1,25 @@
+caso,prob,condicion,peso
+"Mismo autor, nombre ambiguo (acierto)",0.962,signature_compatible = 1,0.258
+"Mismo autor, nombre ambiguo (acierto)",0.962,coauthors_match = 1,0.248
+"Mismo autor, nombre ambiguo (acierto)",0.962,city_match = 1,0.212
+"Mismo autor, nombre ambiguo (acierto)",0.962,matching_signatures = 1,0.155
+"Mismo autor, nombre ambiguo (acierto)",0.962,3.00 < year_diff <= 9.00,0.082
+"Mismo autor, nombre ambiguo (acierto)",0.962,top_bigrams_match = 0,-0.08
+"Mismo autor, nombre ambiguo (acierto)",0.962,block_size_pct > 1.00,-0.079
+"Mismo autor, nombre ambiguo (acierto)",0.962,-1.00 < abstract_sim <= 0.27,-0.074
+Homónimos con el mismo nombre de pila (acierto),0.081,year_diff > 9.00,-0.357
+Homónimos con el mismo nombre de pila (acierto),0.081,coauthors_match = 0,-0.241
+Homónimos con el mismo nombre de pila (acierto),0.081,matching_signatures = 0,-0.223
+Homónimos con el mismo nombre de pila (acierto),0.081,city_match = 1,0.133
+Homónimos con el mismo nombre de pila (acierto),0.081,block_size_pct > 1.00,-0.08
+Homónimos con el mismo nombre de pila (acierto),0.081,top_words_match = 0,-0.074
+Homónimos con el mismo nombre de pila (acierto),0.081,signature_compatible = 0,-0.069
+Homónimos con el mismo nombre de pila (acierto),0.081,middle_initial_equal = 0,-0.069
+Autores distintos unidos por error (falso positivo),0.531,coauthors_match = 0,-0.279
+Autores distintos unidos por error (falso positivo),0.531,matching_signatures = 0,-0.243
+Autores distintos unidos por error (falso positivo),0.531,signature_compatible = 1,0.184
+Autores distintos unidos por error (falso positivo),0.531,abstract_sim > 0.58,0.158
+Autores distintos unidos por error (falso positivo),0.531,middle_initial_equal = -1,-0.142
+Autores distintos unidos por error (falso positivo),0.531,block_size_pct > 1.00,-0.139
+Autores distintos unidos por error (falso positivo),0.531,city_match = 0,-0.128
+Autores distintos unidos por error (falso positivo),0.531,journal_geo = 0,-0.105

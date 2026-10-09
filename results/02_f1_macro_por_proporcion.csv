@@ -1,0 +1,7 @@
+algorithm,scoring,"{0:1,1:2}","{0:1,1:1}",original,"{0:2,1:1}","{0:5,1:1}"
+Decision Tree,accuracy,0.758,0.771,0.725,0.793,0.809
+Decision Tree,average precision,0.758,0.771,0.72,0.793,0.809
+Hist-GBDT,accuracy,0.838,0.845,0.845,0.875,0.896
+Hist-GBDT,average precision,0.835,0.845,0.844,0.87,0.893
+Random Forest,accuracy,0.822,0.835,0.83,0.846,0.877
+Random Forest,average precision,0.834,0.846,0.838,0.867,0.886
