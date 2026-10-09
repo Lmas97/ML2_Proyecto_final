@@ -65,9 +65,9 @@ git clone <url-del-repositorio> && cd proyecto_ml_final
 python -m venv .venv && source .venv/bin/activate      # opcional
 pip install -r requirements.txt
 cd notebooks
-jupyter nbconvert --to notebook --execute --inplace 01_simulacion_datos.ipynb        # ~1 min
-jupyter nbconvert --to notebook --execute --inplace 02_analisis_articulo.ipynb       # ~25 min
-jupyter nbconvert --to notebook --execute --inplace 03_extension_experimental.ipynb  # ~3 min
+jupyter nbconvert --to notebook --execute --inplace 01_simulacion_datos.ipynb        
+jupyter nbconvert --to notebook --execute --inplace 02_analisis_articulo.ipynb       
+jupyter nbconvert --to notebook --execute --inplace 03_extension_experimental.ipynb  
 ```
 
 También se pueden abrir en Jupyter y ejecutar en orden. Todo es determinista (semilla 2021): una nueva ejecución reproduce las mismas tablas y figuras. Se probó con Python 3.13, scikit-learn 1.9 y NetworkX 3.6 (Python ≥ 3.10 debería funcionar). La simulación completa se genera en el notebook 01. Para recrear el experimento del artículo con las 200 iteraciones de búsqueda originales, basta cambiar `N_ITER_SEARCH` en `src/config.py`.
