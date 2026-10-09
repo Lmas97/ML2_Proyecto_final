@@ -52,11 +52,8 @@ proyecto_ml_final/
 ├── results/                      ← tablas (CSV/JSON); el prefijo indica el notebook que las genera
 ├── figures/                      ← gráficos (PNG); mismo prefijo
 ├── references/
-│   ├── Mihaljevic_Santamaria_2021_Scientometrics.pdf   artículo
-│   └── Enunciado_Actividad_Final_MLII.pdf              enunciado de la actividad
-└── presentacion/
-    ├── Sustentacion_ML2_desambiguacion_autores.pdf     diapositivas de la sustentación (15 min)
-    └── guion_sustentacion.md                           notas del orador por diapositiva
+    ├── Mihaljevic_Santamaria_2021_Scientometrics.pdf   artículo
+    └── Enunciado_Actividad_Final_MLII.pdf              enunciado de la actividad
 ```
 
 **Columnas de `data/simulated_authorships.csv`.** Las que ve el modelo son: `block`, `name`, `first_part`, `middle_part`, `signature`, `affiliation`, `cities`, `countries`, `year`, `journal`, `title`, `abstract`, `keywords`, `acronyms` y `coauthors`. La etiqueta es `author_id`: el autor real, que solo se usa para formar `y` y para evaluar. Las columnas `latent_*` y `u_*` son internas de la simulación (el nombre canónico y los números aleatorios fijos que usa la extensión) y **nunca** entran al modelo. Los textos están escritos con un vocabulario sintético de pseudopalabras: lo que importa es qué palabras comparten dos autorías, no su significado.
