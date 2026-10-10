@@ -1,7 +1,7 @@
 # Desambiguación de autores con aprendizaje supervisado y grafos: recreación con datos simulados
 
 **Actividad final · Machine Learning II** · Maestría en Analítica Aplicada · Universidad de La Sabana · octubre de 2026
-**Integrantes:** Laura Almario · Humber Garrido · Marcela Sánchez
+**Integrantes:** Laura Almario · Humbert Garrido · Marcela Sánchez
 
 **Artículo recreado:** Mihaljević, H. & Santamaría, L. (2021). *Disambiguation of author entities in ADS using supervised learning and graph theory methods*. Scientometrics, 126, 3893–3917. [doi:10.1007/s11192-021-03951-w](https://doi.org/10.1007/s11192-021-03951-w) (acceso abierto, CC BY 4.0; copia en `references/`).
 
